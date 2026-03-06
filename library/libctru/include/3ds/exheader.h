@@ -138,7 +138,7 @@ typedef struct
 	u8 flag2_unused                     : 4;    ///< Unused
 	u8 ideal_processor                  : 2;    ///< The ideal processor to start the title on
 	u8 affinity_mask                    : 2;    ///< The affinity mask of the title
-	SystemMode o3ds_system_mode         : 3;    ///< The system mode to use on N3DS
+	SystemMode o3ds_system_mode         : 3;    ///< The system mode to use on O3DS
 	u8 priority;                                ///< The priority of the title's main thread
 } ExHeader_Arm11CoreInfo;
 
